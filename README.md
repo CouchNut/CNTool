@@ -1,0 +1,29 @@
+# CNTool
+
+[![CI Status](https://img.shields.io/travis/CouchNut/CNTool.svg?style=flat)](https://travis-ci.org/CouchNut/CNTool)
+[![Version](https://img.shields.io/cocoapods/v/CNTool.svg?style=flat)](https://cocoapods.org/pods/CNTool)
+[![License](https://img.shields.io/cocoapods/l/CNTool.svg?style=flat)](https://cocoapods.org/pods/CNTool)
+[![Platform](https://img.shields.io/cocoapods/p/CNTool.svg?style=flat)](https://cocoapods.org/pods/CNTool)
+
+## Example
+
+To run the example project, clone the repo, and run `pod install` from the Example directory first.
+
+## Requirements
+
+## Installation
+
+CNTool is available through [CocoaPods](https://cocoapods.org). To install
+it, simply add the following line to your Podfile:
+
+```ruby
+pod 'CNTool'
+```
+
+## Author
+
+CouchNut, yit_copper@163.com
+
+## License
+
+CNTool is available under the MIT license. See the LICENSE file for more info.

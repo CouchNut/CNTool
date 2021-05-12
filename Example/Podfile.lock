@@ -1,0 +1,16 @@
+PODS:
+  - CNTool (0.1.0)
+
+DEPENDENCIES:
+  - CNTool (from `../`)
+
+EXTERNAL SOURCES:
+  CNTool:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CNTool: 5e8e67ef9bb13b8e4ca5d09109dd6bad66feaff5
+
+PODFILE CHECKSUM: 6c45b7b5b276eb913e6352ff46d5edddc61c2bf6
+
+COCOAPODS: 1.10.1

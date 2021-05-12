@@ -1,0 +1,6 @@
+framework module CNTool {
+  umbrella header "CNTool-umbrella.h"
+
+  export *
+  module * { export * }
+}
