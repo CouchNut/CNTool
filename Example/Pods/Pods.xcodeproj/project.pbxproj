@@ -10,11 +10,11 @@
 		060B26DE5EC0F746DE8AAC80E2B0E54C /* Pods-CNTool_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AB90E7EF6C3906B02E3F8EF4DD3D72B8 /* Pods-CNTool_Example-dummy.m */; };
 		228DF3B742A15F11D7423FF383DECC8A /* Pods-CNTool_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DFB8182AD50FB2D41F6B7F338BD4422B /* Pods-CNTool_Tests-dummy.m */; };
 		23E12804E722E5BE8DC79256B817EB88 /* Pods-CNTool_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 46FBA33B3B1BA52434DE3654FE90351C /* Pods-CNTool_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2F2EAD03F0F75263F78C1BB837C66893 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4ECFA21C170DAD5DA05C0C82CC94342 /* ReplaceMe.swift */; };
+		3B05B5EEDE41F770294668F752CB049C /* CNTool-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 63481FD15C478673BB2A21A6E1BA24A7 /* CNTool-dummy.m */; };
 		40B839F00E22CB3B9916E47FEA166853 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		6FAA1BBA9AC520870D5B4B3A722D1AA5 /* CNTool-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C683A69A146375418F9669388014CEB /* CNTool-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AE67F8A9AB9B0437F0DD28BAEDF266E9 /* CNTool-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F3806CB79BB469809EFD7266ABADBD0 /* CNTool-dummy.m */; };
+		6FAA1BBA9AC520870D5B4B3A722D1AA5 /* CNTool-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FDE094AE37E77E51781CA519F90E504 /* CNTool-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B0272BFFC00E21527910181A01279E81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		B31E2E8A47280F3DC57CDCFEF6DCA99C /* CNRichText.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B109442616ADB62E41DF2A985ADD29 /* CNRichText.swift */; };
 		B4528087D27642AAEFFE653869B3DA98 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		CC0964A1E57089A542F7C541F70DCF01 /* Pods-CNTool_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DFAB9E542CDE5401ECE9FFD2D7E315D /* Pods-CNTool_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
@@ -37,38 +37,38 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02D1A88DFA88E7583DBB97A71A03CF42 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		0FDE094AE37E77E51781CA519F90E504 /* CNTool-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CNTool-umbrella.h"; sourceTree = "<group>"; };
 		137C44DBE284A36A2B99D7930340C404 /* Pods-CNTool_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CNTool_Tests.modulemap"; sourceTree = "<group>"; };
-		1EF8D5690E8880176A740B82ECEE2471 /* CNTool-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CNTool-Info.plist"; sourceTree = "<group>"; };
+		1563446F58EE2E90FF07B3B86F5DCC02 /* CNTool.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CNTool.modulemap; sourceTree = "<group>"; };
 		1F04E0B4FDF60B88F05AEE46E5891E1F /* Pods-CNTool_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CNTool_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		27C8423454C5269CB52451CBABB8B2A2 /* CNTool.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CNTool.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		2D9034BB99376319045A1ABAC7E9AE34 /* Pods-CNTool_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CNTool_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		36BAE4272836E0AA497F149F09C45656 /* CNTool-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CNTool-prefix.pch"; sourceTree = "<group>"; };
-		3C683A69A146375418F9669388014CEB /* CNTool-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CNTool-umbrella.h"; sourceTree = "<group>"; };
+		31D4B49CC7B4FE6A8CD4FF3535CFE47E /* CNTool.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CNTool.debug.xcconfig; sourceTree = "<group>"; };
 		3E1360304F63F3626F4BDDF0F010B8FF /* Pods-CNTool_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CNTool_Example-Info.plist"; sourceTree = "<group>"; };
-		4347D4F7DD06CA9048AC7ECE6AE789AC /* CNTool.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CNTool.modulemap; sourceTree = "<group>"; };
 		46FBA33B3B1BA52434DE3654FE90351C /* Pods-CNTool_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CNTool_Tests-umbrella.h"; sourceTree = "<group>"; };
 		4BADB03A86DB23551E1E3D5200E3AD41 /* Pods_CNTool_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CNTool_Example.framework; path = "Pods-CNTool_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E378128D4F68FF70CE682D2982770A9 /* Pods-CNTool_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CNTool_Example-frameworks.sh"; sourceTree = "<group>"; };
+		63481FD15C478673BB2A21A6E1BA24A7 /* CNTool-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CNTool-dummy.m"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		76D5C71919B568687D6844951725F3FE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		7F402051D85FF65DFA886CCB1673FBA6 /* CNTool.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CNTool.debug.xcconfig; sourceTree = "<group>"; };
+		7C2FFE425702493B506D2740DF57628E /* CNTool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CNTool.release.xcconfig; sourceTree = "<group>"; };
 		91F48D2140977D06AF4407E6E4AEABA7 /* Pods-CNTool_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CNTool_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9D9F008DA369258EFE606DF4D5E4E667 /* CNTool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CNTool.framework; path = CNTool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DFAB9E542CDE5401ECE9FFD2D7E315D /* Pods-CNTool_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CNTool_Example-umbrella.h"; sourceTree = "<group>"; };
-		9F3806CB79BB469809EFD7266ABADBD0 /* CNTool-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CNTool-dummy.m"; sourceTree = "<group>"; };
-		A37B45A8862A8E45AB3B5C9FEFB5CC0A /* CNTool.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CNTool.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A608874C1EDF27E9ABD0A5884ED7C384 /* Pods-CNTool_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CNTool_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		A739F97AAB5BA3A68ED5709A5E2948E4 /* Pods-CNTool_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CNTool_Example.release.xcconfig"; sourceTree = "<group>"; };
 		AB90E7EF6C3906B02E3F8EF4DD3D72B8 /* Pods-CNTool_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CNTool_Example-dummy.m"; sourceTree = "<group>"; };
 		ADFF38E72A738B5821D877E6F032649B /* Pods_CNTool_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CNTool_Tests.framework; path = "Pods-CNTool_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B4ECFA21C170DAD5DA05C0C82CC94342 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = CNTool/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		B614BAE28B9F3E33592C3C549F0C1584 /* Pods-CNTool_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CNTool_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		C47E5055CD1AB742E175CBD52F78A1CE /* CNTool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CNTool.release.xcconfig; sourceTree = "<group>"; };
-		D28FE05BFEB2053D2E446C43792453AB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		C9F5D136675B7DB469C6041D6BCE812F /* CNTool-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CNTool-Info.plist"; sourceTree = "<group>"; };
+		CF55F166144C38F89F284188C6E3813E /* CNTool-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CNTool-prefix.pch"; sourceTree = "<group>"; };
 		DCAA7564B19B649590A929E577CC4342 /* Pods-CNTool_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CNTool_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		DFB8182AD50FB2D41F6B7F338BD4422B /* Pods-CNTool_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CNTool_Tests-dummy.m"; sourceTree = "<group>"; };
+		E0BC693DF16A10986366BFC64CD21683 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		E695632494049D2CDBB1F148AC9E07A7 /* Pods-CNTool_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CNTool_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		E90FFD8BFDC682F3EE01E66EF343E537 /* Pods-CNTool_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CNTool_Example.modulemap"; sourceTree = "<group>"; };
+		F5B109442616ADB62E41DF2A985ADD29 /* CNRichText.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CNRichText.swift; path = CNTool/Classes/CNRichText/CNRichText.swift; sourceTree = "<group>"; };
 		FE168E6D5CFACFB6705EC5102AA904EC /* Pods-CNTool_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CNTool_Tests-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -126,14 +126,15 @@
 			path = "Target Support Files/Pods-CNTool_Tests";
 			sourceTree = "<group>";
 		};
-		20FF92047A885E20D2086FCFE27C680A /* Pod */ = {
+		48CDBCF60372F07075E33EFDB12C609B /* CNTool */ = {
 			isa = PBXGroup;
 			children = (
-				A37B45A8862A8E45AB3B5C9FEFB5CC0A /* CNTool.podspec */,
-				76D5C71919B568687D6844951725F3FE /* LICENSE */,
-				D28FE05BFEB2053D2E446C43792453AB /* README.md */,
+				F5B109442616ADB62E41DF2A985ADD29 /* CNRichText.swift */,
+				A39F195CFF9663AA6DAD10F121E9AF84 /* Pod */,
+				B8289F7A2E4F9B1CC66B6D56436FC656 /* Support Files */,
 			);
-			name = Pod;
+			name = CNTool;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -147,20 +148,34 @@
 		829F9C20674AE7580983AF89F3E07742 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				A05246A83DCC4D47C5A8E13FD05008A5 /* CNTool */,
+				48CDBCF60372F07075E33EFDB12C609B /* CNTool */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		A05246A83DCC4D47C5A8E13FD05008A5 /* CNTool */ = {
+		A39F195CFF9663AA6DAD10F121E9AF84 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				B4ECFA21C170DAD5DA05C0C82CC94342 /* ReplaceMe.swift */,
-				20FF92047A885E20D2086FCFE27C680A /* Pod */,
-				D028C04983AE90B6CBC6532AF28B8701 /* Support Files */,
+				27C8423454C5269CB52451CBABB8B2A2 /* CNTool.podspec */,
+				02D1A88DFA88E7583DBB97A71A03CF42 /* LICENSE */,
+				E0BC693DF16A10986366BFC64CD21683 /* README.md */,
 			);
-			name = CNTool;
-			path = ../..;
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		B8289F7A2E4F9B1CC66B6D56436FC656 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1563446F58EE2E90FF07B3B86F5DCC02 /* CNTool.modulemap */,
+				63481FD15C478673BB2A21A6E1BA24A7 /* CNTool-dummy.m */,
+				C9F5D136675B7DB469C6041D6BCE812F /* CNTool-Info.plist */,
+				CF55F166144C38F89F284188C6E3813E /* CNTool-prefix.pch */,
+				0FDE094AE37E77E51781CA519F90E504 /* CNTool-umbrella.h */,
+				31D4B49CC7B4FE6A8CD4FF3535CFE47E /* CNTool.debug.xcconfig */,
+				7C2FFE425702493B506D2740DF57628E /* CNTool.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/CNTool";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -172,21 +187,6 @@
 				1A21583897D98B3028409C2000E1C23C /* Products */,
 				F2A33CF4FDFBDB43A4ABCE056CE161FE /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		D028C04983AE90B6CBC6532AF28B8701 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				4347D4F7DD06CA9048AC7ECE6AE789AC /* CNTool.modulemap */,
-				9F3806CB79BB469809EFD7266ABADBD0 /* CNTool-dummy.m */,
-				1EF8D5690E8880176A740B82ECEE2471 /* CNTool-Info.plist */,
-				36BAE4272836E0AA497F149F09C45656 /* CNTool-prefix.pch */,
-				3C683A69A146375418F9669388014CEB /* CNTool-umbrella.h */,
-				7F402051D85FF65DFA886CCB1673FBA6 /* CNTool.debug.xcconfig */,
-				C47E5055CD1AB742E175CBD52F78A1CE /* CNTool.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/CNTool";
 			sourceTree = "<group>";
 		};
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
@@ -258,7 +258,7 @@
 			buildConfigurationList = FD0D1197D996044177EE7534C7718930 /* Build configuration list for PBXNativeTarget "CNTool" */;
 			buildPhases = (
 				AB3C39388582D3A94B0F498991C75962 /* Headers */,
-				31C60DDE2F647A9E3C89A4BF450F7C4D /* Sources */,
+				B2793F67030C459B59FA2ABD6A0C7A2F /* Sources */,
 				CA8361E0B42E1B2C752297A07681D96E /* Frameworks */,
 				F32029912692663386FF44359607DF0B /* Resources */,
 			);
@@ -371,20 +371,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		31C60DDE2F647A9E3C89A4BF450F7C4D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AE67F8A9AB9B0437F0DD28BAEDF266E9 /* CNTool-dummy.m in Sources */,
-				2F2EAD03F0F75263F78C1BB837C66893 /* ReplaceMe.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		8E2942718C97C9789B6EC9D8237DEF8F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				228DF3B742A15F11D7423FF383DECC8A /* Pods-CNTool_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2793F67030C459B59FA2ABD6A0C7A2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B31E2E8A47280F3DC57CDCFEF6DCA99C /* CNRichText.swift in Sources */,
+				3B05B5EEDE41F770294668F752CB049C /* CNTool-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -507,7 +507,7 @@
 		};
 		A32CD8E43F1C1B34C2DDAA688B413DF0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7F402051D85FF65DFA886CCB1673FBA6 /* CNTool.debug.xcconfig */;
+			baseConfigurationReference = 31D4B49CC7B4FE6A8CD4FF3535CFE47E /* CNTool.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -631,7 +631,7 @@
 		};
 		EB3DCB503DDB0A4766580303ADB78C8A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C47E5055CD1AB742E175CBD52F78A1CE /* CNTool.release.xcconfig */;
+			baseConfigurationReference = 7C2FFE425702493B506D2740DF57628E /* CNTool.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";

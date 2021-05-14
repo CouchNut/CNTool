@@ -8,9 +8,6 @@
 
 import UIKit
 
-import Foundation
-import UIKit
-
 extension String {
     func cn_allRanges(with subString: String) -> [NSRange] {
         var result: [NSRange] = []

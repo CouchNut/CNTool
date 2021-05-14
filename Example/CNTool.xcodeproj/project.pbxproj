@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		04E32CFEC3285C9D75D46DEC /* Pods_CNTool_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08677F3FD263F3201C37F9CE /* Pods_CNTool_Tests.framework */; };
-		1AE2B915264BFDF90065EB9C /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 1AE2B911264BFDF90065EB9C /* .gitkeep */; };
-		1AE2B917264BFDF90065EB9C /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 1AE2B914264BFDF90065EB9C /* .gitkeep */; };
 		1AE2B91A264BFE1D0065EB9C /* CNRichText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE2B919264BFE1D0065EB9C /* CNRichText.swift */; };
 		4F45B4BBF8C53B1BF1C7AAE6 /* Pods_CNTool_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C73849934BE7A6EDB15B80E7 /* Pods_CNTool_Example.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
@@ -35,8 +33,6 @@
 		08677F3FD263F3201C37F9CE /* Pods_CNTool_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CNTool_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CA78E4D6D2E232AA8001E40 /* Pods-CNTool_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CNTool_Example.release.xcconfig"; path = "Target Support Files/Pods-CNTool_Example/Pods-CNTool_Example.release.xcconfig"; sourceTree = "<group>"; };
 		0F7E14414327E8EEBFD83B24 /* Pods-CNTool_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CNTool_Tests.release.xcconfig"; path = "Target Support Files/Pods-CNTool_Tests/Pods-CNTool_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		1AE2B911264BFDF90065EB9C /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
-		1AE2B914264BFDF90065EB9C /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		1AE2B919264BFE1D0065EB9C /* CNRichText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CNRichText.swift; sourceTree = "<group>"; };
 		4AB3EED5DC29F2577C46411B /* Pods-CNTool_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CNTool_Example.debug.xcconfig"; path = "Target Support Files/Pods-CNTool_Example/Pods-CNTool_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* CNTool_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CNTool_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -89,7 +85,6 @@
 			isa = PBXGroup;
 			children = (
 				1AE2B918264BFE030065EB9C /* CNRichText */,
-				1AE2B911264BFDF90065EB9C /* .gitkeep */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -97,7 +92,6 @@
 		1AE2B913264BFDF90065EB9C /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				1AE2B914264BFDF90065EB9C /* .gitkeep */,
 			);
 			path = Assets;
 			sourceTree = "<group>";
@@ -290,9 +284,7 @@
 			files = (
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
-				1AE2B917264BFDF90065EB9C /* .gitkeep in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
-				1AE2B915264BFDF90065EB9C /* .gitkeep in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
